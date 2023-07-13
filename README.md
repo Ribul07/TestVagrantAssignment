@@ -2,7 +2,7 @@ Install TestNG pluglin to IDE(Eclipse)
 
 **Description** :-Able to fetch recently played songs based on the user and eliminate the least recently played songs when the store becomes full.
 **GetRecentPlayedSong.java** :- This returns the recently played songs.
-**RecentlyPlayedSongStore** :- This will storesongs based on the capacity and will return song deatils.
+**RecentlyPlayedSongStore.java** :- This will storesongs based on the capacity and will return song deatils.
 
 **Test case for validation:**
 When user played songs more than the capacity, it will delete the least recent played songs and store recent played songs.(Positive case)
